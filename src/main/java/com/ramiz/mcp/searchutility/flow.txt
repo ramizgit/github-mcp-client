@@ -1,0 +1,29 @@
+end-to-end system:
+
+Question
+   ↓
+GitHub MCP search_code
+   ↓
+Relevant files
+   ↓
+GitHub MCP get_file_contents
+   ↓
+ContextBuilder
+   ↓
+Ollama (gemma3:4b)
+   ↓
+Answer
+
+And the answer you got proves:
+
+✅ MCP search worked
+
+✅ File retrieval worked
+
+✅ Context was built correctly
+
+✅ Ollama was called successfully
+
+✅ JSON parsing is fixed
+
+✅ LLM understood the code
