@@ -22,7 +22,7 @@ public class GitHubMcpSdkClient {
                                 "-i",
                                 "--rm",
                                 "-e",
-                                "GITHUB_PERSONAL_ACCESS_TOKEN="+ System.getenv("GITHUB_TOKEN"),
+                                "GITHUB_PERSONAL_ACCESS_TOKEN="+ System.getenv("GITHUB_PERSONAL_ACCESS_TOKEN"),
                                 "ghcr.io/github/github-mcp-server"
                         )
                         .build();

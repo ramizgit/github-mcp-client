@@ -7,7 +7,7 @@ public class GitHubMcpClientMock {
 
     public static void main(String[] args) throws Exception {
 
-        String githubToken = System.getenv("GITHUB_TOKEN");
+        String githubToken = System.getenv("GITHUB_PERSONAL_ACCESS_TOKEN");
 
         Process process = new ProcessBuilder(
                 "docker",

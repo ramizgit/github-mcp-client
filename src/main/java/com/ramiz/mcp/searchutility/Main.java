@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String token = System.getenv("GITHUB_TOKEN");
+        String token = System.getenv("GITHUB_PERSONAL_ACCESS_TOKEN");
 
         ServerParameters params =
                 ServerParameters.builder("docker")
