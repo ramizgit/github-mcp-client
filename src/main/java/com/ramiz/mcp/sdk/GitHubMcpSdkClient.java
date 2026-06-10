@@ -15,8 +15,6 @@ public class GitHubMcpSdkClient {
 
     public static void main(String[] args) {
 
-        String token = System.getenv("GITHUB_TOKEN");
-
         ServerParameters params =
                 ServerParameters.builder("docker")
                         .args(
@@ -24,7 +22,7 @@ public class GitHubMcpSdkClient {
                                 "-i",
                                 "--rm",
                                 "-e",
-                                "GITHUB_PERSONAL_ACCESS_TOKEN=" + token,
+                                "GITHUB_PERSONAL_ACCESS_TOKEN="+ System.getenv("GITHUB_TOKEN"),
                                 "ghcr.io/github/github-mcp-server"
                         )
                         .build();

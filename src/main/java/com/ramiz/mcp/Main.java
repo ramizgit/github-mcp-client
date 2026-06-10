@@ -7,20 +7,20 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        Process process = new ProcessBuilder(
+        /*Process process = new ProcessBuilder(
                 "docker",
                 "--version"
-        ).start();
+        ).start();*/
 
-        /*Process process = new ProcessBuilder(
+        Process process = new ProcessBuilder(
                 "docker",
                 "run",
                 "-i",
                 "--rm",
                 "-e",
-                "GITHUB_PERSONAL_ACCESS_TOKEN= System.getenv("GITHUB_TOKEN");",
+                "GITHUB_PERSONAL_ACCESS_TOKEN="+ System.getenv("GITHUB_TOKEN"),
                 "ghcr.io/github/github-mcp-server"
-        ).start();*/
+        ).start();
 
         try (BufferedReader reader =
                      new BufferedReader(

@@ -1,0 +1,15 @@
+PR Number
+    ↓
+GitHub MCP
+    ↓
+Get PR files
+    ↓
+Get file contents
+    ↓
+Get commit history
+    ↓
+Build Context
+    ↓
+LLM
+    ↓
+Risk Report
