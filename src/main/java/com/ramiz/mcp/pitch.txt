@@ -1,0 +1,3 @@
+I implemented a Java MCP client that connected to the GitHub MCP Server running in Docker.
+The application used MCP tools such as search_code, get_file_contents, and pull_request_read to retrieve repository context,
+which was then supplied to an LLM through a RAG workflow for code analysis and repository intelligence use cases.
